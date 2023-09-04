@@ -80,14 +80,14 @@ footer{
   background-color:#fde047;
   padding: 2px;
   font-size:30px;
-} .about{
+} footer{
   text-align: center;
   background-color:#fde047;
   font-size:25px;
+  
+}.p-output{
   margin-left: 20%;
   margin-right: 20%;
-}.p-output{
-
 font-size:30px;
 margin-left:20rem;
 
