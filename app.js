@@ -10,6 +10,7 @@ bttn.addEventListener("click", clickHandler);
 function clickHandler() {
   console.clear();
   console.log(textinput.value);
+ 
 
   // calling process
 
