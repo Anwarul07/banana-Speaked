@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Kalam:wght@300&family=Playfair+Display:ital,wght@1,600&family=Roboto+Condensed:ital@1&family=Roboto+Slab:wght@500&family=Roboto:wght@500&display=swap');
+body{
+font-family: 'Kalam', cursive;
+}
+
 #btnTranslate {
   margin: 10px;
   padding: 5px;
@@ -12,6 +17,7 @@
   height: 10rem;
   /* text-align: center; */
   font-size:60px;
+  font-family: 'Kalam', cursive;
 }
 /* #btnTranslate:hover {
   background-color: rgb(0, 38, 255);
@@ -23,29 +29,28 @@ p {
   text-align: center;
   font-size:60px;
 }
-h2 {
-  color: black;
-  font-size:60px
-}
 textarea {
   height: 30rem;
   width: 50rem;
   text-align: center;
-  margin: 10px;
+  margin: 5rem;
   padding: 10px;
-  /* border-color:#fde047; */
+  font-family: 'Kalam', cursive;
   border-width: 2px;
   border-top-left-radius: 9px;
   border-bottom-right-radius: 9px;
   font-size:60px;
+  border-color: #fde047;
 }
-/* .all {
-  color: blue;
+.all {
+color: #fde047;
   font-weight: 900;
-} */
+} 
 h2 {
   height: 90px;
   border: 2px;
+  color: black;
+  font-size:60px;
 
   text-align: center;
 
@@ -62,7 +67,12 @@ h2 {
   height: 30rem; 
   text-align: center;
   font-size:60px;
+  font-family: 'Kalam', cursive;
 }nav{
   background-color:#fde047;
   padding: 25px;
+  margin: 0px auto;
+  width :100%;
+  height: 100%;
+  
 }
