@@ -1,6 +1,6 @@
-var ask = prompt(" what is your Identity Mr ?");
-var reply = "Ok Permission Granted! & Welcome Mr " + ask;
-alert(reply);
+// var ask = prompt(" what is your Identity Mr ?");
+// var reply = "Ok Permission Granted! & Welcome Mr " + ask;
+// alert(reply);
 
 var bttn = document.querySelector("#btnTranslate");
 var inputText = document.querySelector("#textinput");
