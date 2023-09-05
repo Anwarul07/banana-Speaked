@@ -34,4 +34,4 @@ function translationUrl(input) {
 function errorHandler(error) {
   console.log("Error !", error);
   alert("Error please try again");
-}
+} 
