@@ -16,7 +16,7 @@ function clickHandler() {
 
   var inputText = textinput.value;
 
-  fetch(translationUrl(inputText))
+  fetch(translationURL(inputText))
     .then((response) => response.json())
     .then((json) => {
       var translatedText = json.contents.translated;
@@ -27,7 +27,7 @@ function clickHandler() {
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
-function translationUrl(input) {
+function translationURL(input) {
   return serverURL + "?" + "text=" + input;
 }
 
